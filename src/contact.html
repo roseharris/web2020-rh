@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project WEB 2620</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <script src="./javascripts/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://bulma.io">
+                <img src="./images/wsuLogo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112"
+                    height="28">
+            </a>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">Home</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="#">More</a>
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="predeparture.html">Pre-Departure</a>
+                        <a class="navbar-item" href="incountry.html">In-Country</a>
+                        <a class="navbar-item" href="poststudy.html">Post-Study Abroad</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="learning.html">Learning Resources</a>
+                        <a class="navbar-item" href="about.html">About Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <a class="button is-primary" href="contact.html">
+                                <span class="icon">
+                                    <i class="far fa-envelope-open"></i>
+                                </span>
+                                <span>Contact</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+  <section>
+    <div class="container">
+        <div class="container">
+            <div class="column is-4 is-offset-4 box">
+              <h1 class="avatar has-text-centered section"><i class="fas fa-address-book fa-5x"></i></h1>
+              <div class="login-form">
+                <form role="form" action="/signup" method="post">
+                  <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control has-icons-left">
+                      <input class="input" type="text" placeholder="e.g Alex Smith"><span class="icon is-small is-left"><i class="fas fa-user"></i></span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Username</label>
+                    <div class="control has-icons-left">
+                      <input class="input" type="text" placeholder="e.g. alex.smith"><span class="icon is-small is-left"><i class="fas fa-user"></i></span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input class="input" type="email" placeholder="e.g. asmith@gmail.com"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span><span class="icon is-small is-right"><i class="fas fa-check"></i></span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Password</label>
+                    <div class="control has-icons-left">
+                      <input class="input" type="password" placeholder="e.g. Password" data-lpignore="true"><span class="icon is-small is-left"><i class="fas fa-lock"></i></span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <label class="label">Confirm password</label>
+                    <div class="control has-icons-left">
+                      <input class="input" type="password" placeholder="e.g. Password" data-lpignore="true"><span class="icon is-small is-left"><i class="fas fa-lock"></i></span>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <p class="control">
+                      <button class="button is-primary is-medium is-fullwidth">Sign Up</button>
+                    </p>
+                  </div>
+                </form>
+              </div>
+              <hr>
+              <div class="forgot-password">
+                <p class="has-text-centered">Did you<a href="/forgot">forgot your password</a>or<a href="/login">need to login?</a></p>
+              </div>
+            </div>
+          </div>
+    </div>
+</section>
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <h3>Created by <strong>Rose Harris</strong>.</h3>
+            <p>
+                <br>Web 2620 Final Project Implementation<br>Spring 2021
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>
