@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Final Project WEB 2620</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <script src="./javascripts/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar is-transparent">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="https://weber.edu">
+                <img src="./images/wsuLogo.png" alt="WSU Logo" width="112"
+                    height="28">
+            </a>
+            <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="index.html">Home</a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link" href="#">More</a>
+                    <div class="navbar-dropdown is-boxed">
+                        <a class="navbar-item" href="predeparture.html">Pre-Departure</a>
+                        <a class="navbar-item" href="incountry.html">In-Country</a>
+                        <a class="navbar-item" href="poststudy.html">Post-Study Abroad</a>
+                        <hr class="navbar-divider">
+                        <a class="navbar-item" href="learning.html">Learning Resources</a>
+                        <a class="navbar-item" href="about.html">About Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="navbar-end">
+                <div class="navbar-item">
+                    <div class="field is-grouped">
+                        <p class="control">
+                            <a class="button is-primary" href="contact.html">
+                                <span class="icon">
+                                    <i class="far fa-envelope-open"></i>
+                                </span>
+                                <span>Contact</span>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+  <section>
+    <div class="container">
+      <br>
+      <article class="message is-warning is-light">
+        <div class="message-body">
+         Please reach out to us if you have any questions or feedback. We appreciate it!
+        </div>
+      </article>
+      <hr>
+        <div class="container">
+            <div class="column is-4 is-offset-4 box">
+              <h1 class="avatar has-text-centered section"><i class="fas fa-address-book fa-5x"></i></h1>              <div class="login-form">
+                <form role="form" action="/signup" method="post">
+                  <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Luke Skywalker">
+                    </div>
+                  </div>
+                  
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control has-icons-left has-icons-right">
+                      <input class="input is-danger" type="email" placeholder="example@gmail.com">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                      </span>
+                    </div>
+                    <p class="help is-danger">This email is invalid</p>
+                  </div>
+                  
+                  <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                      <div class="select">
+                        <select>
+                          <option>Feedback</option>
+                          <option>Questions</option>
+                          <option>Other</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="field">
+                    <label class="label">Message</label>
+                    <div class="control">
+                      <textarea class="textarea" placeholder="Please type your message here..."></textarea>
+                    </div>
+                  </div>
+                  
+                  <div class="field">
+                    <div class="control">
+                      <label class="checkbox">
+                        <input type="checkbox">
+                        I agree to the <a href="#">terms and conditions</a>
+                      </label>
+                    </div>
+                  </div>
+                  
+                  <div class="field">
+                    <p>Would you like us to reply?</p>
+                    <div class="control">
+                      <label class="radio">
+                        <input type="radio" name="question">
+                        Yes
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="question">
+                        No
+                      </label>
+                    </div>
+                  </div>
+                  
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button class="button is-link">Submit</button>
+                    </div>
+                    <div class="control">
+                      <button class="button is-link is-light">Cancel</button>
+                    </div>
+                  </div>
+            </div>
+          </div>
+    </div>
+</section>
+    
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <h3>Created by <strong>Rose Harris</strong>.</h3>
+            <p>
+                <br>Web 2620 Final Project Implementation<br>Spring 2021
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

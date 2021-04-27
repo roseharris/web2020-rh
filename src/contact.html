@@ -15,8 +15,8 @@
 
     <nav class="navbar is-transparent">
         <div class="navbar-brand">
-            <a class="navbar-item" href="https://bulma.io">
-                <img src="./images/wsuLogo.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112"
+            <a class="navbar-item" href="https://weber.edu">
+                <img src="./images/wsuLogo.png" alt="WSU Logo" width="112"
                     height="28">
             </a>
             <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
@@ -59,54 +59,92 @@
         </div>
     </nav>
 
+
   <section>
     <div class="container">
+      <br>
+      <article class="message is-warning is-light">
+        <div class="message-body">
+         Please reach out to us if you have any questions or feedback. We appreciate it!
+        </div>
+      </article>
+      <hr>
         <div class="container">
             <div class="column is-4 is-offset-4 box">
-              <h1 class="avatar has-text-centered section"><i class="fas fa-address-book fa-5x"></i></h1>
-              <div class="login-form">
+              <h1 class="avatar has-text-centered section"><i class="fas fa-address-book fa-5x"></i></h1>              <div class="login-form">
                 <form role="form" action="/signup" method="post">
                   <div class="field">
                     <label class="label">Name</label>
-                    <div class="control has-icons-left">
-                      <input class="input" type="text" placeholder="e.g Alex Smith"><span class="icon is-small is-left"><i class="fas fa-user"></i></span>
+                    <div class="control">
+                      <input class="input" type="text" placeholder="Luke Skywalker">
                     </div>
                   </div>
-                  <div class="field">
-                    <label class="label">Username</label>
-                    <div class="control has-icons-left">
-                      <input class="input" type="text" placeholder="e.g. alex.smith"><span class="icon is-small is-left"><i class="fas fa-user"></i></span>
-                    </div>
-                  </div>
+                  
                   <div class="field">
                     <label class="label">Email</label>
                     <div class="control has-icons-left has-icons-right">
-                      <input class="input" type="email" placeholder="e.g. asmith@gmail.com"><span class="icon is-small is-left"><i class="fas fa-envelope"></i></span><span class="icon is-small is-right"><i class="fas fa-check"></i></span>
+                      <input class="input is-danger" type="email" placeholder="example@gmail.com">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-exclamation-triangle"></i>
+                      </span>
+                    </div>
+                    <p class="help is-danger">This email is invalid</p>
+                  </div>
+                  
+                  <div class="field">
+                    <label class="label">Subject</label>
+                    <div class="control">
+                      <div class="select">
+                        <select>
+                          <option>Feedback</option>
+                          <option>Questions</option>
+                          <option>Other</option>
+                        </select>
+                      </div>
                     </div>
                   </div>
+                  
                   <div class="field">
-                    <label class="label">Password</label>
-                    <div class="control has-icons-left">
-                      <input class="input" type="password" placeholder="e.g. Password" data-lpignore="true"><span class="icon is-small is-left"><i class="fas fa-lock"></i></span>
+                    <label class="label">Message</label>
+                    <div class="control">
+                      <textarea class="textarea" placeholder="Please type your message here..."></textarea>
                     </div>
                   </div>
+                  
                   <div class="field">
-                    <label class="label">Confirm password</label>
-                    <div class="control has-icons-left">
-                      <input class="input" type="password" placeholder="e.g. Password" data-lpignore="true"><span class="icon is-small is-left"><i class="fas fa-lock"></i></span>
+                    <div class="control">
+                      <label class="checkbox">
+                        <input type="checkbox">
+                        I agree to the <a href="#">terms and conditions</a>
+                      </label>
                     </div>
                   </div>
+                  
                   <div class="field">
-                    <p class="control">
-                      <button class="button is-primary is-medium is-fullwidth">Sign Up</button>
-                    </p>
+                    <p>Would you like us to reply?</p>
+                    <div class="control">
+                      <label class="radio">
+                        <input type="radio" name="question">
+                        Yes
+                      </label>
+                      <label class="radio">
+                        <input type="radio" name="question">
+                        No
+                      </label>
+                    </div>
                   </div>
-                </form>
-              </div>
-              <hr>
-              <div class="forgot-password">
-                <p class="has-text-centered">Did you<a href="/forgot">forgot your password</a>or<a href="/login">need to login?</a></p>
-              </div>
+                  
+                  <div class="field is-grouped">
+                    <div class="control">
+                      <button class="button is-link">Submit</button>
+                    </div>
+                    <div class="control">
+                      <button class="button is-link is-light">Cancel</button>
+                    </div>
+                  </div>
             </div>
           </div>
     </div>
